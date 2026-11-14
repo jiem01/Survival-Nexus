@@ -23,8 +23,5 @@ Expected: The webpage should display all required sections and working navigatio
 
 Actual: The webpage displayed correctly and all navigation links worked.
 
-## Problems Encountered and Corrections
-Removed the unused CSS references because the activity is currently using HTML only.
-
 ## Git Commit or PR Link
 To be added after committing the changes.
