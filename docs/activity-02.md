@@ -50,12 +50,12 @@ To be added after pushing to GitHub.
 ## Checks I performed
 - 320px viewport: one column, no horizontal scrolling
 - Desktop viewport: two columns
-- Tab key: orange outline appears on every link
+- Tab key: yellow outline appears on every link
 - 200% zoom: content still reachable
 - Stylesheet removed: page still reads in a sensible order
 
 ## Layout decision I can explain
-The `.panel` rule uses `padding: 1rem` for space inside the border and `margin-block: 1rem` for space between panels. The `@media (min-width: 48rem)` rule changes `.status-grid` from one column to two columns on wider screens.
+The `.panel` rule uses `padding: 1rem` for space inside the border and `margin-block: 1rem` for space between panels. The `@media (min-width: 48rem)` rule changes `.status-grid` from one column to two columns on wider screens. Colors are stored in CSS variables (`--bg`, `--text`, `--accent`). Light text (#e6edf3) on a dark background (#0d1117) gives strong contrast.
 
 ## Git
 Commit link: https://github.com/jiem01/Survival-Nexus/commit/9283d37
