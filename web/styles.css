@@ -144,3 +144,10 @@ footer {
   font-size: 0.9rem;
   text-align: center;
 }
+
+
+@media (min-width: 48rem) {
+  #communications {
+    grid-column: 1 / -1;
+  }
+}
