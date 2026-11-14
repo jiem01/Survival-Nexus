@@ -1,23 +1,61 @@
-# Activity 02 - Organize the Command Center
+# Activity 02 – Organize the Command Center
 
-## Checks
-- Narrow viewport (320px): [one column, no horizontal scrolling]
-- Desktop viewport: [two columns]
-- Keyboard Tab: [orange outline appears on every link]
-- 200% zoom: [all content still reachable]
-- Stylesheet removed: [page still reads in a logical order]
+## 1. Activity Objective
+To improve the Survival Nexus webpage using CSS and make it responsive and accessible.
+
+## 2. CSS Properties Used
+List the CSS properties you used:
+- Font:
+- Background and text colors:
+- Maximum width:
+- Padding and margin:
+- Grid or Flexbox:
+- Keyboard focus:
+
+## 3. Responsive Layout Decision
+Explain how your layout changes when the screen becomes narrow.
+
+## 4. Browser Developer Tools
+Describe one layout decision you inspected using computed styles or the box-model inspector.
+
+## 5. Tests Performed
+
+### Narrow Screen (320px)
+Result:
+
+### Desktop View
+Result:
+
+### Browser Zoom (200%)
+Result:
+
+### Keyboard Navigation
+Result:
+
+### Stylesheet Removed
+Result:
+
+## 6. Expected and Actual Results
+Expected:
+
+Actual:
+
+## 7. Problems Encountered and Corrections
+Describe any problems you encountered and how you corrected them.
+
+## 8. Git Commit or PR Link
+To be added after pushing to GitHub.
+
+
+## Checks I performed
+- 320px viewport: one column, no horizontal scrolling
+- Desktop viewport: two columns
+- Tab key: orange outline appears on every link
+- 200% zoom: content still reachable
+- Stylesheet removed: page still reads in a sensible order
 
 ## Layout decision I can explain
-The `.panel` rule uses `padding: 1rem` for space inside the border and
-`margin-block: 1rem` for space between panels. The `@media (min-width: 48rem)`
-rule changes `.status-grid` from one column to two columns on wider screens.
-
-## Contrast
-Dark text (#1b1b1b) on a light background (#f4f1ea) is easy to read.
-
-## Independent task
-The "Remote relay offline" panel uses the words "Status: OFFLINE", a warning
-icon, and a dashed border, so it is understandable without color.
+The `.panel` rule uses `padding: 1rem` for space inside the border and `margin-block: 1rem` for space between panels. The `@media (min-width: 48rem)` rule changes `.status-grid` from one column to two columns on wider screens.
 
 ## Git
-Commit/PR link: [paste your GitHub commit link here]
+Commit link: https://github.com/jiem01/Survival-Nexus/commit/9283d37
