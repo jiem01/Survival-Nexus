@@ -21,4 +21,4 @@ Food check (25 units, 4 survivors, 2 each): daily demand 8, complete days 3, lef
 Zero survivors is an invalid input (it would divide by zero). It will be handled in Activity 04.
 
 ## Git
-Commit link: [paste here after pushing]
+Commit link: (https://github.com/jiem01/Survival-Nexus/commit/c261a86)
