@@ -1,67 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survival Nexus - Shelter Terminal</title>
-<link rel="stylesheet" href="styles.css">
-    <style>
-    
-</style>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Survival Nexus - Shelter Terminal</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <header>
-        <h1>Survival Nexus</h1>
-        <p>Survivor Coordination Terminal</p>
-
-<nav>
-    <a href="#mission">Home</a>
-    |
-    <a href="#priority-supplies">Priority Supplies</a>
-    |
-    <a href="#communications">Communications</a>
-</nav>
+  <main>
+    <header id="mission">
+      <h1>Survival Nexus</h1>
+      <p>Survivor Coordination Terminal</p>
+      <nav aria-label="Main">
+        <a href="#mission">Home</a>
+        <a href="#supplies">Priority Supplies</a>
+        <a href="#communications">Communications</a>
+      </nav>
     </header>
 
-    <main>
-        <section id="mission">
-            <h2>Mission Briefing</h2>
-            <p>
-                Our mission is to protect the remaining survivors,
-                manage essential resources, and maintain communication
-                between shelters during the C-Virus outbreak.
-            </p>
-        </section>
+    <section>
+      <h2>Mission Briefing</h2>
+      <p>Our mission is to protect the remaining survivors, manage essential resources, and maintain communication between shelters during the C-Virus outbreak.</p>
+    </section>
 
-        <section id="shelter-status">
-            <h2>Shelter Status</h2>
-            <p>Shelter Alpha: Operational</p>
-            <p>Emergency Power: Backup generator active</p>
-        </section>
+    <div class="status-grid">
+      <section class="panel">
+        <h2>Shelter Status</h2>
+        <p>Shelter Alpha: Operational</p>
+        <p>Emergency Power: Backup generator active</p>
+      </section>
 
-        <section id="priority-supplies">
-            <h2>Priority Supplies</h2>
-            <ul>
-                <li>Water - Limited</li>
-                <li>Food - Available</li>
-                <li>Medication - Low</li>
-                <li>C-Virus Vaccine - Critical</li>
-            </ul>
-        </section>
+      <section class="panel" id="supplies">
+        <h2>Priority Supplies</h2>
+        <ul>
+          <li>Water - Limited</li>
+          <li>Food - Available</li>
+          <li>Medication - Low</li>
+          <li>C-Virus Vaccine - Critical</li>
+        </ul>
+      </section>
 
-        <section id="communications">
-            <h2>Communications</h2>
-            <p>Radio Network: Online</p>
-            <p>Remote Relay: Offline</p>
-        </section>
-    </main>
+      <section class="panel" id="communications">
+        <h2>Communications</h2>
+        <p>Radio Network: Online</p>
+        <p class="relay-panel">
+          <strong>&#9888; Status: OFFLINE</strong><br>
+          Remote relay offline
+        </p>
+      </section>
+    </div>
 
     <footer>
-        <p>Survival Nexus - Fictional Training Data Only.</p>
-        <p>No real survivor information is stored in this system.</p>
+      <p>Survival Nexus - Fictional Training Data Only.</p>
+      <p>No real survivor information is stored in this system.</p>
     </footer>
-
+  </main>
 </body>
 </html>
