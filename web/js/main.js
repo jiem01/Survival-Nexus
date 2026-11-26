@@ -1,3 +1,4 @@
+import { daysOfSupplies } from "./domain.js";
 // ===== Helpers (from Activity 04) =====
 const MAX_SUPPLY = 1000000;
 
@@ -10,7 +11,7 @@ const waterSurvivors = 6;
 const waterPerSurvivorPerDay = 2;
 
 const waterDailyDemand = waterSurvivors * waterPerSurvivorPerDay;
-const waterCompleteDays = Math.floor(waterUnits / waterDailyDemand);
+const waterCompleteDays = daysOfSupplies(waterUnits, waterDailyDemand);
 const waterLeftover = waterUnits - waterCompleteDays * waterDailyDemand;
 
 console.log("=== WATER ===");
@@ -24,7 +25,7 @@ const foodSurvivors = 4;
 const foodPerSurvivorPerDay = 2;
 
 const foodDailyDemand = foodSurvivors * foodPerSurvivorPerDay;
-const foodCompleteDays = Math.floor(foodUnits / foodDailyDemand);
+const foodCompleteDays = daysOfSupplies(foodUnits, foodDailyDemand);
 const foodLeftover = foodUnits - foodCompleteDays * foodDailyDemand;
 
 console.log("=== FOOD ===");
