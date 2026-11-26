@@ -27,4 +27,4 @@ Negative => Rejected: invalid stock at position 1 (counting from 0).
 All actual results matched my predictions.
 
 ## Links
-(paste PR link later)
+(https://github.com/jiem01/Survival-Nexus/pull/4)
