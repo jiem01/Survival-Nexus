@@ -25,3 +25,4 @@ console.log("Starting units:", foodUnits);
 console.log("Daily demand:", foodDailyDemand);
 console.log("Complete days:", foodCompleteDays);
 console.log("Leftover:", foodLeftover);
+
