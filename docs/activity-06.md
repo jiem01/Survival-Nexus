@@ -23,4 +23,4 @@
 One passing case like 18 and 5 never tries a bad denominator. A dailyUse of 0 would make JavaScript return Infinity instead of an error, and the single test would still pass. Only tests with invalid inputs prove the function rejects them.
 
 ## Links
-(paste PR link later)
+(https://github.com/jiem01/Survival-Nexus/pull/6)
