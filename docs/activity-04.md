@@ -27,10 +27,6 @@
 
 ## Actual results
 (paste terminal output below this line)
-
-## PR link
-(paste link later)
-
 === WATER ===
 Starting units: 18
 Daily demand: 12
@@ -55,3 +51,7 @@ Supplies last 10 full day(s).
 Supplies last 0 full day(s).
 Invalid: survivors must be a positive safe integer.
 Invalid: daily allowance must be a positive safe integer.
+
+## PR link
+(https://github.com/jiem01/Survival-Nexus/pull/2)
+
